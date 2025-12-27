@@ -1,0 +1,36 @@
+version: "3.8"
+
+services:
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - user-service
+      - product-service
+      - order-service
+
+  user-service:
+    build: ./services/user-service
+    ports:
+      - "4001:4001"
+
+  product-service:
+    build: ./services/product-service
+    ports:
+      - "4002:4002"
+
+  order-service:
+    build: ./services/order-service
+    ports:
+      - "4003:4003"
+
+  database:
+    image: postgres:15
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin
+      POSTGRES_DB: ecommerce
+    ports:
+      - "5432:5432"
