@@ -1,10 +1,9 @@
-# 🚀 Node.js Docker Application (Beginner Friendly)
+# 🚀 Node.js Docker Application 
 
 This project demonstrates how to create a simple **Node.js application**
 and containerize it using **Docker**.
 
-This repository is written in a **beginner-friendly way**, explaining
-each step clearly.
+
 
 ---
 
@@ -44,5 +43,5 @@ http://localhost:3000
 
 
 git add .
-git commit -m "Added beginner-friendly Node.js Docker project with explanation"
+git commit -m "Added  Node.js Docker project "
 git push origin main
