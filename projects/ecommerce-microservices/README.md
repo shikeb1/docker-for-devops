@@ -1,10 +1,12 @@
-# E-Commerce Three-Tier Microservices
-This project demonstrates a production-ready microservices architecture using Docker.
+# E-Commerce 3-Tier Microservices
 
-## Services
-- **Frontend**: React-based UI
-- **Backend**: Node.js API services (User, Product, Order)
-- **Database**: SQL-based persistence layer
+This project demonstrates the orchestration of a full-stack application using Docker Compose.
 
-## How to Run
-Run `docker-compose up --build` from this directory.
+## 🏗️ Architecture
+* **Frontend**: Lightweight Node.js image (Alpine Linux).
+* **Services**: Modular Express.js APIs for Users, Products, and Orders.
+* **Database**: Automated SQL initialization for persistent data.
+
+## 🚀 How to Run
+1. Navigate to this directory: `cd projects/ecommerce-microservices`
+2. Launch the entire stack: `docker-compose up --build`.
