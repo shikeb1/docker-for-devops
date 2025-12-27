@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # 🚀 Docker for DevOps – Beginner Friendly Projects
 
 This repository contains **hands-on Docker & DevOps practice projects**
@@ -49,6 +49,20 @@ explanations and step-by-step instructions.
 **Shikeb Malik**  
 DevOps Learner 🚀
 =======
+
+
+
+
+###############$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$           E-COMMERCE README.md                  #########################$$$$$$$$$$$$$$$$$$$4
+
+
+
+
+
+
+
+
+
 # 🛒 E-Commerce Three-Tier Microservices Application
 
 A production-style **E-commerce application architecture** built using **Docker and Docker Compose**, following **Three-Tier Architecture** and **Microservices principles**.  
